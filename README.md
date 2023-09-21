@@ -17,7 +17,6 @@ npm install prettier --save-dev
 }
 
 Создадим .prettierignore и добавим в него
-# Add files here to ignore them from prettier formatting
 /dist
 /coverage
 /tmp

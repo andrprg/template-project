@@ -11,8 +11,6 @@ import { HOST_URL } from 'src/environments/environment';
 
 @Injectable()
 export class ApiPrefixInterceptor implements HttpInterceptor {
-
-  constructor() {}
   
   intercept(request: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
     if (!/^(http|https):/i.test(request.url)) {

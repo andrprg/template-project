@@ -26,8 +26,6 @@ export class MessagesService {
       filter(messages => messages && messages.length > 0)
     );
 
-  constructor() {}
-
   showErrors(...errors: string[]) {
     this.subjectErrors.next(errors);
   }

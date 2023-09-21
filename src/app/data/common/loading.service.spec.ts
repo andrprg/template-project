@@ -16,7 +16,7 @@ describe('LoadingService', () => {
   });
 
   it('должен быть установлен в true при появлении потока', (done) => {
-    let result: boolean[] = [];
+    const result: boolean[] = [];
     const ob$ = of(null);
     service.loading$.subscribe(data => {
       result.push(data);

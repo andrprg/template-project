@@ -4,10 +4,16 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HeaderComponent } from './ui/theme/layout/components/header/header.component';
+import { FooterComponent } from './ui/theme/layout/components/footer/footer.component';
+import { MainComponent } from './ui/theme/layout/components/main/main.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,

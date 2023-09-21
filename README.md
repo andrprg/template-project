@@ -34,7 +34,7 @@ ng lint --fix
 Добавим Angular material
 ng add @angular/material
 
-Все стили из папки theme добавляем как import в файл style.scss
+Все стили из папки stylesheets добавляем как import в файл style.scss
 
 Добавим в angular.json свойство
 "@schematics/angular:component": {
@@ -50,7 +50,8 @@ ng add @angular/material
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 
-
+СОЗДАНИЕ ЛЕЙАУТА
+ИЛИ скопироать папку u/theme
 # TemplateProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.3.

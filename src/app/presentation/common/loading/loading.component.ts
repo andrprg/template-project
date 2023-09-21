@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { of, delay } from 'rxjs';
+import { Component } from '@angular/core';
 import { LoadingService } from 'src/app/data/common/loading.service';
 
 
@@ -8,13 +7,10 @@ import { LoadingService } from 'src/app/data/common/loading.service';
   templateUrl: './loading.component.html',
   styleUrls: ['./loading.component.scss']
 })
-export class LoadingComponent implements OnInit {
+export class LoadingComponent {
 
   constructor(
     public loadingService: LoadingService
   ) { }
-
-  ngOnInit(): void {
-  }
 
 }
